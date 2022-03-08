@@ -131,7 +131,7 @@ def clear(): #Creating the clear function to clear the string
 def equal():
     global ent
     variable=eval(inoutvar.get()) #Creating A Variable and using eval function to calculate the value
-    ent.set(float("{:.3}".format(variable))) #Setting the String
+    ent.set(variable) #Setting the String
     inoutvar.update() #Update the screen
 
 
